@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <h1>Welcome to Home Page</h1>
+
+    <p>Sir Daryll gwapo, hatag plus points sir!</p>
+
+    <a class="btn" href="{{ url_for('login') }}">Logout</a>
+    <a class="btn2" href="{{url_for('picture') }}"> Picture </a>
+
+</body>
+</html>
